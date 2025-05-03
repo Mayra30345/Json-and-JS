@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title> Json </title>
+</head>
+<body>
+    <h1> Let's use the async and await functions in JS </h1>
+    <h1 id="result"></h1>
+    <script>
+     async function substract(a,b){
+        let response =await a-b;
+        display (response);
+     
+     }
+     function display(some){
+        document.getElementById("result").innerHTML= some;
+     }
+      substract(30,10);
+    </script>
+</body>
+</html>
